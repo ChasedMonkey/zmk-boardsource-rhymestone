@@ -9,13 +9,14 @@ This is not intended to be used with Blok or Elite-c controllers.
 <h2>Optional Components</h2>
 I have included everything that you should need if you chose to build with LED underglow or (an) OLED Screen(s).
 
-LEDs are option and will quickly chew through battery life. But if you chose to use them like I did you only need to uncomment the LED lines in Rhymestone.conf And if you didn't include them you don't need to change anything.
+LEDs are optional and will quickly chew through battery life. But if you chose to use them like I did you only need to uncomment the LED lines in Rhymestone.conf 
+If you didn't include them you don't need to change anything.
 
-The OLED screen(s) will need a little more setup. First uncomment the OLED related items in Rhymestone.conf
-
+The OLED screen(s) will need a little more setup. 
+First uncomment the OLED related items in Rhymestone.conf
 Once you have done that use the files in the OLED-enable folder to replace the files of the same names in the parent folder [Rhymestone]
-
-You only need to replace the .dtsi and Rhymestone_left.overlay files if you are only using an OLED on the left piece. If you are using an oled on both sides you will need all 3 files.
+You only need to replace the .dtsi and Rhymestone_left.overlay files if you are only using an OLED on the left piece. 
+If you are using an oled on both sides you will need all 3 files.
 
 The included 'Rhymestone.json' in the config folder is only there to allow compatability with <a href="https://nickcoutsos.github.io/keymap-editor/$0">this keymap editor</a>.
 You will also need to make a copy of Rhymestone.keymap and place it in the config folder for the keymap editor to work.
