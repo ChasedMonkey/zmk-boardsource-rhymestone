@@ -1,5 +1,6 @@
 <h1>Boardsource.xyz Rhymestone ZMK Configuration</h1>
 <p><a href="https://www.boardsource.xyz/products/Rhymestone$0">Keyboard Kit</a></p>
+<p><a href="https://www.boardsource.xyz/products/Rhymestone$0">ZMK Documentation</a></p>
 
 This repo was made to configure the boardsource.xyz Rhymestone to work with ZMK if you chose to use a nice_nano_v2 or supermini controller.
 
