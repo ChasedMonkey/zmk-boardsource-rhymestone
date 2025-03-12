@@ -1,7 +1,7 @@
-if SHIELD_UWU_MASTER
+if SHIELD_RHYMESTONE_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "UwU Keeb"
+	default "Rhymestone"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
@@ -11,7 +11,7 @@ endif
 if SHIELD_UWU_SLAVE
 
 config ZMK_KEYBOARD_NAME
-	default "UwU Slave"
+	default "Rhymestone Right"
 	
 endif
 

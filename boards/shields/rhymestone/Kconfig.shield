@@ -1,0 +1,8 @@
+# Copyright (c) 2025 Ellie Ernst
+# SPDX-License-Identifier: MIT
+
+config SHIELD_RHYMESTONE_LEFT
+	def_bool $(shields_list_contains,Rhymestone_left)
+
+config SHIELD_RHYMESTONE_RIGHT
+	def_bool $(shields_list_contains,Rhymestone_right)
