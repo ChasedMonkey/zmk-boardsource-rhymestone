@@ -11,7 +11,7 @@ endif
 if SHIELD_RHYMESTONE_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Rhymestone Right"
+	default "RS Right"
 	
 endif
 
