@@ -1,0 +1,8 @@
+# Copyright (c) 2025 Ellie Ernst
+# SPDX-License-Identifier: MIT
+
+config SHIELD_UWU_MASTER
+	def_bool $(shields_list_contains,UwU_master)
+
+config SHIELD_UWU_SLAVE
+	def_bool $(shields_list_contains,UwU_slave)

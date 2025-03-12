@@ -1,0 +1,4 @@
+name: zmk-split-uwu
+build:
+  settings:
+    board_root: .
