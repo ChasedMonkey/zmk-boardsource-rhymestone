@@ -16,4 +16,6 @@ Once you have done that use the files in the OLED-enable folder to replace the f
 
 You only need to replace the .dtsi and Rhymestone_left.overlay files if you are only using an OLED on the left piece. If you are using an oled on both sides you will need all 3 files.
 
-The included 'Rhymestone_layout.json' in the config folder is only there to allow compatability with the keymap editor by 
+The included 'Rhymestone_layout.json' in the config folder is only there to allow compatability with <p><a> href="https://nickcoutsos.github.io/keymap-editor/$0">this keymap editor</a>.</p>
+You will also need to make a copy of Rhymestone.keymap and place it in the config folder for the keymap editor to work.
+However I have configured this to work with ZMK studio, so you can also use that to edit the keymap if you desire.
