@@ -1,8 +1,8 @@
 file_format: "1"
-id: zmk-split-uwu
-name: UwU Split
+id: zmk-boardsource-rhymestone
+name: Rhymestone
 type: shield
-url: https://github.com/ChasedMonkey/zmk-config
+url: https://github.com/ChasedMonkey/zmk-boardsource-rhymestone
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
@@ -11,5 +11,5 @@ features:
   - display
   - studio
 siblings:
-  - UwU_master
-  - UwU_slave
+  - Rhymestone_left
+  - Rhymestone_right
